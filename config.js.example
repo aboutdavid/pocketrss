@@ -1,0 +1,11 @@
+module.exports = {
+  feeds: [
+    // Array of atom/rss URLs
+    "https://jakewharton.com/atom.xml",
+    "https://web.dev/feed.xml"
+  ],
+  // every n ms will the feeds will be fetched.
+  interval: 900000,
+  // the port that pocketrss will be listening.
+  port: 3000
+};

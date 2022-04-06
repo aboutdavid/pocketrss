@@ -1,0 +1,28 @@
+{
+  "name": "pocketrss",
+  "version": "1.0.0",
+  "description": "RSS in your pocket, literally.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "rss-parser": "^3.11.0",
+    "sync-request": "^6.1.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://github.com/aboutDavid/pocketrss"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pocket",
+    "rss",
+    "kobo"
+  ]
+}
